@@ -41,12 +41,27 @@ h6 {
 }
 
 .intro-header {
+    position: relative;
+    overflow: hidden;
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    //background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.intro-bgvid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
 }
 
 .intro-message {
