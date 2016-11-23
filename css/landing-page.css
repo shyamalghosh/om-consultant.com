@@ -11,14 +11,29 @@ html {
 }
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    font-family: "Open Sans";
+    font-weight: lighter;
+},
+h2 {
+    font-family: "Open Sans";
+    font-weight: lighter;
+},
+h3 {
+    font-family: "Open Sans";
+    font-weight: lighter;
+},
+h4 {
+    font-family: "Open Sans";
+    font-weight: lighter;
+},
+h5 {
+    font-family: "Open Sans";
+    font-weight: lighter;
+},
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans";
+    font-weight: lighter;
 }
 
 .lead {
