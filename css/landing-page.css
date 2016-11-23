@@ -4,6 +4,111 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ @font-face {
+ 	font-family: "SanFranciscoDisplay-Black";
+ 	src: url('../fonts/SanFranciscoDisplay-Black.otf');
+ }
+
+ @font-face {
+ 	font-family: "SanFranciscoDisplay-Bold";
+ 	src: url('../fonts/SanFranciscoDisplay-Bold.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Heavy";
+   src: url('../fonts/SanFranciscoDisplay-Heavy.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Light";
+   src: url('../fonts/SanFranciscoDisplay-Light.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Medium";
+   src: url('../fonts/SanFranciscoDisplay-Medium.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Regular";
+   src: url('../fonts/SanFranciscoDisplay-Regular.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Semibold";
+   src: url('../fonts/SanFranciscoDisplay-Semibold.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Thin";
+   src: url('../fonts/SanFranciscoDisplay-Thin.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoDisplay-Ultralight";
+   src: url('../fonts/SanFranciscoDisplay-Ultralight.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Bold";
+   src: url('../fonts/SanFranciscoText-Bold.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-BoldItalic";
+   src: url('../fonts/SanFranciscoText-BoldItalic.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Heavy";
+   src: url('../fonts/SanFranciscoText-Heavy.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-HeavyItalic";
+   src: url('../fonts/SanFranciscoText-HeavyItalic.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Light";
+   src: url('../fonts/SanFranciscoText-Light.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-LightItalic";
+   src: url('../fonts/SanFranciscoText-LightItalic.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Medium";
+   src: url('../fonts/SanFranciscoText-Medium.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-MediumItalic";
+   src: url('../fonts/SanFranciscoText-MediumItalic.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Regular";
+   src: url('../fonts/SanFranciscoText-Regular.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-RegularItalic";
+   src: url('../fonts/SanFranciscoText-RegularItalic.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-Semibold";
+   src: url('../fonts/SanFranciscoText-Semibold.otf');
+ }
+
+ @font-face {
+   font-family: "SanFranciscoText-SemiboldItalic";
+   src: url('../fonts/SanFranciscoText-SemiboldItalic.otf');
+ }
+
 body,
 html {
     width: 100%;
