@@ -5,6 +5,11 @@
  */
 
  @font-face {
+ 	font-family: "Myriad-Pro";
+ 	src: url('../fonts/myriad/Myriad-Pro.ttf');
+ }
+
+ @font-face {
  	font-family: "Myriad-Pro-Ultralight";
  	src: url('../fonts/myriad/Myriad-Pro-Ultralight.ttf');
  }
