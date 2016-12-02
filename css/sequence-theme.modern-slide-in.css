@@ -20,7 +20,6 @@
  * Copyright © 2015 Ian Lunn Design Limited unless otherwise stated.
  */
 
-@import url(http://fonts.googleapis.com/css?family=Oxygen:700|Source+Sans+Pro:300);
 
 body,
 html,
@@ -34,7 +33,7 @@ html,
 
 .seq {
   position: relative;
-  background: #ffffff url("../images/bg-sequence.jpg") no-repeat;
+  // background: #ffffff url("../img/bg-sequence.jpg") no-repeat;
   background-position: 0% 100%;
   background-size: cover;
   /* Dimensions */
@@ -154,7 +153,7 @@ html,
 
 .seq .seq-next {
   right: 20px;
-  background: url("../images/bt-next.png");
+  background: url("../img/bt-next.png");
 }
 
 .seq .seq-next:focus,
@@ -166,7 +165,7 @@ html,
 
 .seq .seq-prev {
   left: 20px;
-  background: url("../images/bt-prev.png");
+  background: url("../img/bt-prev.png");
 }
 
 .seq .seq-prev:focus,
@@ -235,7 +234,7 @@ html,
 
 .seq .seq-title h2 {
   padding: .2em 1%;
-  font-family: 'Oxygen', sans-serif;
+  font-family: sans-serif;
   color: white;
   background: black;
   float: left;
@@ -307,8 +306,8 @@ html,
   .seq .seq-screen {
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 12.5%;
+    right: 12.5%;
     bottom: 0;
   }
 
@@ -504,12 +503,12 @@ html,
   }
 
   .seq .seq-next {
-    background: url("../images/bt-next@2x.png");
+    background: url("../img/bt-next@2x.png");
     background-size: 35px 66px;
   }
 
   .seq .seq-prev {
-    background: url("../images/bt-prev@2x.png");
+    background: url("../img/bt-prev@2x.png");
     background-size: 35px 66px;
   }
 }
