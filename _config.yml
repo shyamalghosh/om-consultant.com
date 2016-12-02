@@ -22,9 +22,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: facebook
+    url: https://facebook.com/om-consulting
   - title: twitter
-    url: https://twitter.com/om-consultant
-  - title: github
     url: https://github.com/shyamalghosh/om-consultant.com
   - title: linkedin
     url: https://linkedin.com/om-consultant/
