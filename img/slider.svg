@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,9 +73,9 @@
          transform="matrix(1.0141649,0,0,0.61108256,-2.3335792,139.05781)">
         <g
            id="g4195"
-           transform="matrix(-0.07873726,0,0,0.07873726,103.1989,331.50514)"
-           inkscape:export-xdpi="246.19765"
-           inkscape:export-ydpi="246.19765">
+           transform="matrix(0.07873726,0,0,0.07873726,77.255928,331.50514)"
+           inkscape:export-xdpi="487.70001"
+           inkscape:export-ydpi="487.70001">
           <path
              inkscape:connector-curvature="0"
              inkscape:original-d="M 89.070201,94.156755 240.59309,354.77611"

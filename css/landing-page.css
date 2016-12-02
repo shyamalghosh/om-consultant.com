@@ -56,14 +56,20 @@ h6 {
 }
 
 .intro-header {
-    position: relative;
-    overflow: hidden;
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
+    //position: relative;
+    //overflow: hidden;
+    //padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    //padding-bottom: 150px;
+    //text-align: center;
     color: #ffffff;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-image: url(../img/intro-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
 }
 
 .intro-bgvid {
@@ -155,7 +161,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
