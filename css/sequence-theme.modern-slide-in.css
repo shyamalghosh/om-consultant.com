@@ -20,17 +20,6 @@
  * Copyright © 2015 Ian Lunn Design Limited unless otherwise stated.
  */
 
-
-body,
-html,
-.seq {
-  /* Uncomment to make the theme full-screen */
-  /* width: 100% !important; */
-  /* max-width: 100% !important; */
-  /* height: 100% !important; */
-  /* max-height: 100% !important; */
-}
-
 .seq {
   position: relative;
   // background: #ffffff url("../img/bg-sequence.jpg") no-repeat;
@@ -234,7 +223,6 @@ html,
 
 .seq .seq-title h2 {
   padding: .2em 1%;
-  font-family: sans-serif;
   color: white;
   background: black;
   float: left;
@@ -367,7 +355,6 @@ html,
   .seq .seq-title h2 {
     margin-bottom: .4em;
     padding: .2em .6em;
-    font-family: 'Oxygen', sans-serif;
     color: white;
     background: black;
     -webkit-transform: translate3d(-120px, 0, 0);
