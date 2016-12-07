@@ -113,8 +113,8 @@ function drawGoogleMap() {
     }
 ]
 
-    var office = {lat: 47.66013999999999, lng: 9.483349999999973};
-    var office_map = {lat: 46.66013999999999, lng: 4.483349999999973};
+    var office = {lat: 47.6600237, lng: 15.4793332};
+    var office_map = {lat: 47.6600237, lng: 9.4793332};
 
     var options = {
         zoom: 5,
