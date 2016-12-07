@@ -220,3 +220,7 @@ p.copyright {
     position: absolute;
     z-index: -100;
 }
+
+.fadeIn {
+    opacity: 0;
+}
