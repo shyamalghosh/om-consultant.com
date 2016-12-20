@@ -26,7 +26,14 @@
                 <li>
                     <a class="page-scroll" href="#contact" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">{{ site.nav-links.contact[page.lang] }}</a>
                 </li>
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for page in pages %}
+                  <li>
+                    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                  </li>
+                {% endfor %}
             </ul>
+
         </div>
         <!-- /.navbar-collapse -->
     </div>
@@ -44,8 +51,8 @@
 			<div class="row">
 				<div class="col-lg-12 text-right">
 					<div class="intro-message">
-						<h1>{{ page.title }}</h1>
-						<h2>{{ page.subTitle }}</h2>
+						<h1>{{ site.title }}</h1>
+						<h2>{{ site.subTitle }}</h2>
 						<!-- <hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
 							{% for social in site.social %}
