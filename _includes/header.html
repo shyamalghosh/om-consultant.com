@@ -9,22 +9,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home" style="font-family: Myriad-Pro-Light; color: black">OM Consulting</a>
+            <a class="navbar-brand page-scroll" href="#home" style="font-family: Myriad-Pro-Light; color: black">{{ site.title }}</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
             	  <li>
-                    <a class="page-scroll" href="#about" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">About</a>
+                    <a class="page-scroll" href="#about" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">{{ site.nav-links.about[page.lang] }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">Services</a>
+                    <a class="page-scroll" href="#services" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">{{ site.nav-links.services[page.lang] }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">Team</a>
+                    <a class="page-scroll" href="#team" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">{{ site.nav-links.team[page.lang] }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">Contact</a>
+                    <a class="page-scroll" href="#contact" style="font-size: 18px; font-family: Myriad-Pro-Light; color: black">{{ site.nav-links.contact[page.lang] }}</a>
                 </li>
             </ul>
         </div>

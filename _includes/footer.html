@@ -5,26 +5,26 @@
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a href="#home" style="font-family: Myriad-Pro">Home</a>
+                        <a href="#home" style="font-family: Myriad-Pro">{{site.nav-links.home[page.lang]}}</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#about" style="font-family: Myriad-Pro">About</a>
+                        <a href="#about" style="font-family: Myriad-Pro">{{site.nav-links.about[page.lang]}}</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#services" style="font-family: Myriad-Pro">Services</a>
+                        <a href="#services" style="font-family: Myriad-Pro">{{site.nav-links.services[page.lang]}}</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#team" style="font-family: Myriad-Pro">Team</a>
+                        <a href="#team" style="font-family: Myriad-Pro">{{site.nav-links.team[page.lang]}}</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#contact" style="font-family: Myriad-Pro">Contact</a>
+                        <a href="#contact" style="font-family: Myriad-Pro">{{site.nav-links.contact[page.lang]}}</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small" style="font-family: Myriad-Pro-Light">{{ site.copyright }}</p>
+                <p class="copyright text-muted small" style="font-family: Myriad-Pro-Light">{{site.copyright[page.lang]}}</p>
             </div>
             <div class="col-md-4">
                 {{ site.credits }}
