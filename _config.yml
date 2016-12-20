@@ -4,6 +4,7 @@
 
 url: http://om-consultant.com
 baseurl: #
+
 title: OM Consulting
 subTitle: Joint Ventures and Liaison Service
 email: info@om-consultant.com
@@ -12,9 +13,6 @@ author: Shyamal Ghosh
 description:
   en: Shyamal Ghosh, Om Consulting
   de: Shyamal Ghosh, Om Consulting
-index:
-  en:
-  de: startsite.html
 copyright:
   en: Copyright &copy; 2015 OM Consultant. All Rights Reserved.
   de: Copyright &copy; 2015 OM Consultant. Alle Rechte vorbehalten.
